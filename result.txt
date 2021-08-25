@@ -1,0 +1,53 @@
+>>> a=True
+>>> b=False
+>>> print(a&b)
+False
+>>> a=False
+>>> b=True
+>>> print(a&b)
+False
+>>> a=True
+>>> b=True
+>>> print(a&b)
+True
+>>> a=False
+>>> b=False
+>>> print(a&b)
+False
+>>> a=0
+>>> b=0
+>>> print(a|b)
+0
+>>> a=1
+>>> b=0
+>>> print(a|b)
+1
+>>> a=0
+>>> b=1
+>>> print(a|b)
+1
+>>> a=1
+>>> b=1
+>>> print(a|b)
+1
+>>> a=0
+>>> b=0
+>>> print(~a)
+-1
+>>> print(~a&b)
+0
+>>> a=10
+>>> b=20
+>>> print(a&b)
+0
+>>> a=10
+>>> b=5
+>>> print(a&b)
+0
+>>> print(a|b)
+15
+>>> a=10
+>>> print(a<<2)
+40
+>>> print(a>>2)
+2
