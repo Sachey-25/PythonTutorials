@@ -1,0 +1,106 @@
+['Dollar', 'Euro', 'INR', 'Pound']
+>>> 
+= RESTART: C:/Users/Coding-Machine/Desktop/Promise/PythonTutorials/python-list.py
+ The index of of 'Pound'  is  3
+['Dollar', 'Euro', 'INR', 'Pound']
+>>> 
+= RESTART: C:/Users/Coding-Machine/Desktop/Promise/PythonTutorials/python-list.py
+The index of 'Pound'  is  3
+['Dollar', 'Euro', 'INR', 'Pound']
+>>> 
+= RESTART: C:/Users/Coding-Machine/Desktop/Promise/PythonTutorials/python-list.py
+The index of 'Pound'  is  3
+In the possition 4 'Yen' is inserted
+['Dollar', 'Euro', 'INR', 'Pound', 'Yen', 'AUSD', 'Yuan', 'Reals', 'INR']
+>>> 
+= RESTART: C:/Users/Coding-Machine/Desktop/Promise/PythonTutorials/python-list.py
+The index of 'Pound'  is  3
+In the possition 4 'Yen' is inserted
+4
+['Dollar', 'Euro', 'INR', 'Pound', 'Yen', 'AUSD', 'Yuan', 'Reals', 'INR']
+>>> 
+= RESTART: C:/Users/Coding-Machine/Desktop/Promise/PythonTutorials/python-list.py
+The index of 'Pound'  is  3
+In the possition 4 'Yen' is inserted
+4
+Traceback (most recent call last):
+  File "C:/Users/Coding-Machine/Desktop/Promise/PythonTutorials/python-list.py", line 20, in <module>
+    currenries.insert(0, new_list)
+NameError: name 'currenries' is not defined
+>>> 
+= RESTART: C:/Users/Coding-Machine/Desktop/Promise/PythonTutorials/python-list.py
+The index of 'Pound'  is  3
+In the possition 4 'Yen' is inserted
+4
+[[1, 2, 3, 4], 'Dollar', 'Euro', 'INR', 'Pound', 'Yen', 'AUSD', 'Yuan', 'Reals', 'INR']
+>>> print(currencies[0])
+[1, 2, 3, 4]
+>>> print(curencies[0][0])
+Traceback (most recent call last):
+  File "<pyshell#12>", line 1, in <module>
+    print(curencies[0][0])
+NameError: name 'curencies' is not defined
+>>> print(currencies[0][0])
+1
+>>> print(currencies[0][1])
+2
+>>> print(currencies[0][2])
+3
+>>> print(currencies[0][4])
+Traceback (most recent call last):
+  File "<pyshell#16>", line 1, in <module>
+    print(currencies[0][4])
+IndexError: list index out of range
+>>> 
+= RESTART: C:/Users/Coding-Machine/Desktop/Promise/PythonTutorials/python-list.py
+The index of 'Pound'  is  3
+In the possition 4 'Yen' is inserted
+4
+[[1, 2, 3, 4], 'Dollar', 'Euro', 'INR', 'Pound', ('Sachin', 'Bidar', 'Karnataka'), 'Yen', 'AUSD', 'Yuan', 'Reals', 'INR']
+>>> 
+= RESTART: C:/Users/Coding-Machine/Desktop/Promise/PythonTutorials/python-list.py
+The index of 'Pound'  is  3
+In the possition 4 'Yen' is inserted
+4
+<class 'tuple'>
+[[1, 2, 3, 4], 'Dollar', 'Euro', 'INR', 'Pound', ('Sachin', 'Bidar', 'Karnataka'), 'Yen', 'AUSD', 'Yuan', 'Reals', 'INR']
+>>> 
+= RESTART: C:/Users/Coding-Machine/Desktop/Promise/PythonTutorials/python-list.py
+The index of 'Pound'  is  3
+In the possition 4 'Yen' is inserted
+4
+<class 'tuple'>
+***************************************************
+Hi There! I am extended list ['Bangalore', 'Hydrabad', 'Pune', 'Kolkatta', 'Sachin', 'Sourav', 'Rahul', 'Yuvraj']
+[[1, 2, 3, 4], 'Dollar', 'Euro', 'INR', 'Pound', ('Sachin', 'Bidar', 'Karnataka'), 'Yen', 'AUSD', 'Yuan', 'Reals', 'INR']
+>>> prime_number=[2,3,5,7,11]
+>>> prime_number.pop(0)
+2
+>>> prime_number.pop(1)
+5
+>>> prime_number.pop(0)
+3
+>>> prime_number.pop(0)
+7
+>>> prime_number=[2,3,5,7,11]
+>>> prime_number.pop()
+11
+>>> prime_number.pop()
+7
+>>> prime_number.pop()
+5
+>>> prime_number=[2,3,5,7,11]
+>>> prime_number.remove()
+Traceback (most recent call last):
+  File "<pyshell#27>", line 1, in <module>
+    prime_number.remove()
+TypeError: list.remove() takes exactly one argument (0 given)
+>>> prime_number.remove(0)
+Traceback (most recent call last):
+  File "<pyshell#28>", line 1, in <module>
+    prime_number.remove(0)
+ValueError: list.remove(x): x not in list
+>>> prime_number.remove(2)
+>>> prime_number.remove(5)
+>>> print(prime_number)
+[3, 7, 11]
